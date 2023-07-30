@@ -58,3 +58,39 @@ nav{
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav{
+        box-shadow: none;
+    }
+    nav{
+        
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-1{
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-2 span{
+        width: 50%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .nav-2 span > h4{
+        border-radius: 8px;
+background: rgba(226, 223, 233, 0.1);
+        padding-bottom: 1rem;
+    }
+}
