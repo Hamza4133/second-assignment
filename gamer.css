@@ -94,3 +94,15 @@ background: rgba(226, 223, 233, 0.1);
         padding-bottom: 1rem;
     }
 }
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-1{
+        width: 30%;
+    }
+    .nav-2{
+        width: 70%;
+    }
+    
+}
